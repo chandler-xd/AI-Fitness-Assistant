@@ -34,16 +34,16 @@ This project helps users:
 ![Progress](Screenshots/progress.png)
 
 ### Training Analytics
-![Analytics](Screenshots/training_analytics.png)
+![Training Analytics](Screenshots/training_analytics.png)
 
 ### Add Workout
 ![Add Workout](Screenshots/add_workout.png)
 
 ### Workout History
-![History](Screenshots/workout_history.png)
+![Workout History](Screenshots/workout_history.png)
 
 ### AI Assistant
-![AI](Screenshots/ai_assistant.png)
+![AI Assistant](Screenshots/ai_assistant.png)
 
 ---
 
