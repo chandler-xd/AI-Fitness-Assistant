@@ -1,51 +1,87 @@
 # 🏋️ AI Fitness Assistant
 
-A fitness web app I built to track workouts, visualize progress, and get guidance from an AI-style assistant.
+A full-stack fitness tracking web app with analytics and an AI-powered gym assistant.  
+Built using Python, Streamlit, and SQLite.
 
-I created this as a product-style college project to practice full-stack development, data visualization, and basic AI concepts.
-
----
-
-## ✨ Features
-
+This project helps users:
 - Log workouts (exercise, sets, reps, weight)
-- Dashboard with key stats
-- Progress analytics:
-  - Strength progress per exercise
-  - Workout frequency
-  - Total training volume
-- Edit & delete workouts (full CRUD)
-- Export workout history as CSV
-- Per-exercise stats panel
-- AI Fitness Assistant:
-  - Answers fitness questions
-  - Beginner guidance
-  - Workout suggestions
-  - Nutrition & recovery tips
+- Track strength progression over time
+- View training analytics (frequency & volume)
+- Edit / delete workouts
+- Export workout history
+- Chat with an AI fitness coach
 
 ---
 
-## 🧰 Tech Stack
+# 🚀 Features
 
-- Python  
-- Streamlit  
-- SQLite  
-- Pandas  
-
----
-
-## 🧠 Concepts Used
-
-- Full-stack architecture (UI → Logic → Database)
-- CRUD operations
-- Data visualization
-- Intent-based AI assistant
-- Modular and scalable design
+- 📊 Dashboard Overview – Total workouts, last session, and best lift  
+- 📈 Progress Tracking – Strength progression for each exercise  
+- 📊 Training Analytics – Monthly workout frequency & volume  
+- ➕ Add Workout – Log exercises with sets, reps, and weight  
+- ✏️ Edit & Delete – Modify or remove past workouts  
+- 📤 Export to CSV – Download workout history  
+- 🤖 AI Fitness Assistant – Ask questions about workouts, reps, diet, and motivation  
 
 ---
 
-## 🚀 How to Run
+# 🖼️ Screenshots
 
-```bash
-pip install -r requirements.txt
+### Dashboard
+![Dashboard](Screenshots/dashboard.png)
+
+### Progress Tracking
+![Progress](Screenshots/progress.png)
+
+### Training Analytics
+![Analytics](Screenshots/training_analytics.png)
+
+### Add Workout
+![Add Workout](Screenshots/add_workout.png)
+
+### Workout History
+![History](Screenshots/workout_history.png)
+
+### AI Assistant
+![AI](Screenshots/ai_assistant.png)
+
+---
+
+# 🛠 Tech Stack
+
+| Technology  | Purpose |
+|-------------|---------|
+| Python      | Core application logic |
+| Streamlit   | Web UI & dashboard |
+| SQLite      | Local database |
+| Pandas      | Data processing for charts |
+| Regex (re)  | Intent-based AI matching |
+| Git & GitHub| Version control |
+
+---
+
+# ⚙️ How It Works
+
+- Streamlit renders the UI
+- User actions trigger Python logic
+- Data is stored in SQLite
+- Queries are converted into Pandas DataFrames
+- Charts are generated in real time
+- AI queries are matched using regex-based intent detection
+
+---
+
+# 🧪 Setup & Run
+
+### Create virtual environment
+python -m venv venv
+venv\Scripts\activate
+
+### Install dependencies
+pip install streamlit pandas
+
+### (Optional) Seed realistic gym data
+python seed_data.py
+
+### Run the app
 streamlit run app.py
