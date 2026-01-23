@@ -71,17 +71,3 @@ This project helps users:
 
 ---
 
-# 🧪 Setup & Run
-
-### Create virtual environment
-python -m venv venv
-venv\Scripts\activate
-
-### Install dependencies
-pip install streamlit pandas
-
-### (Optional) Seed realistic gym data
-python seed_data.py
-
-### Run the app
-streamlit run app.py
