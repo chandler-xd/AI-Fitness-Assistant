@@ -5,7 +5,7 @@ INTENTS = {
         "patterns": [
             r"\bhi\b", r"\bhello\b", r"\bhey\b"
         ],
-        "response": "Hey! I’m your AI Fitness Assistant. Ask me about workouts, diet, or training tips."
+        "response": "Hello! I’m your AI Fitness Assistant. Ask me about workouts, diet, or training tips."
     },
 
     "beginner": {
